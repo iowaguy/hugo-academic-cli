@@ -1,3 +1,5 @@
+This fork is needed because the original has some very outdated dependencies.
+
 # Hugo Academic CLI
 
 [![Download from PyPI](https://img.shields.io/pypi/v/academic.svg)](https://pypi.python.org/pypi/academic)

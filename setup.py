@@ -13,7 +13,7 @@ def get_version(package):
 
 
 version = get_version("academic")
-requirements = ["ruamel.yaml==0.16.13", "toml", "requests", "bibtexparser==1.1.0"]
+requirements = ["ruamel.yaml==0.17.16", "toml", "requests", "bibtexparser==1.1.0"]
 
 if sys.argv[-1] == "publish":
     if os.system("pip3 freeze --all | grep wheel"):

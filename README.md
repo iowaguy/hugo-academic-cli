@@ -1,5 +1,12 @@
 This fork is needed because the original has some very outdated dependencies.
 
+Steps for updating dependencies:
+1) Update relevant versions in files
+2) Update lock file by running `pipenv lock`
+3) Update hash in other repo's `shell.nix` by updating the `rev` to the newest
+commit, and then removing the `sha256` field (after running, it will report the
+correct hash; put that in the `shell.nix`).
+
 # Hugo Academic CLI
 
 [![Download from PyPI](https://img.shields.io/pypi/v/academic.svg)](https://pypi.python.org/pypi/academic)

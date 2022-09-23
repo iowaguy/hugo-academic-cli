@@ -6,7 +6,7 @@ verify_ssl = true
 [packages]
 toml = "*"
 requests = "*"
-bibtexparser = "==1.1.0"
+bibtexparser = "==1.2.0"
 "ruamel.yaml" = "==0.17.21"
 
 [dev-packages]

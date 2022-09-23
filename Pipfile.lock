@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5c9829082e9a58dfa330805e12ab5a112a5c19e3d491268d9a42d35613293e26"
+            "sha256": "5d3a8e1a343edbd3a523fc38efc30d144526a801b1cf834294b921f5db81fe5b"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -16,10 +16,10 @@
     "default": {
         "bibtexparser": {
             "hashes": [
-                "sha256:df8966ea752db6d74657a69b9d684a61aa33457ad6d9d50e41c50ef7f374907f"
+                "sha256:0f9ab94e3fc36ee2ee6a3713c5dd7320d4b6ee52bd66ecbab03c6b06675ae410"
             ],
             "index": "pypi",
-            "version": "==1.1.0"
+            "version": "==1.2.0"
         },
         "certifi": {
             "hashes": [
@@ -598,7 +598,7 @@
                 "sha256:2eb4e6894cde1e017976d2975ac210ef515d7548bc595ba20e195fb9628acdeb",
                 "sha256:63a5c5ce3673d3d5fbbf23cd87e11ab84b6b451436f1b7f19ec54b6bc36ed7ca"
             ],
-            "markers": "python_version < '4' and python_full_version >= '3.6.3'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.3'",
             "version": "==12.5.1"
         },
         "secretstorage": {
